@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zelda/finalDayHUD4"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$vertexalpha" 1
+
+$distancealpha	1
+
+	$softedges 1
+	$edgesoftnessstart	.52
+	$edgesoftnessend	.47
+	$scaleedgesoftnessbasedonscreenres 1
+	
+	$glow		1
+	$glowcolor	"[0 0 0]"
+	$glowalpha	.2
+	$glowstart	.1
+	$glowend	.6
+	//$glowx	.98
+	//$glowy	.98
+
+}
+

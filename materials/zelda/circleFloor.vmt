@@ -1,0 +1,5 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "zelda/cliffDirt"
+	"$basetexture2" "zelda/bluerock"
+}

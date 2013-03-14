@@ -1,0 +1,38 @@
+"UnlitGeneric"
+{
+
+
+
+
+	"$basetexture" "zelda/water"
+	"$offset" "0"
+	"$rotate" "90.0"
+	"$alpha" "0.6"
+	//"$surfaceprop" "water"
+	//"$bottommaterial" "dev/dev_waterbeneath2"
+	//"$refracttint" "[0.95 1.0 0.97]"
+
+    "Proxies"
+    {
+        "Sine"
+        {
+            "sineperiod" 50
+	"sinemin" 0
+	"sinemax" 45
+            "timeoffset" "$offset"
+            "resultVar" "$rotate"
+        }
+
+        "TextureScroll"
+        {
+            "textureScrollVar" "$basetexturetransform"
+            "textureScrollRate" 0.1
+            "textureScrollAngle" "$rotate"
+        }
+		"WaterLOD"
+		{
+			// fixme!  This has to be here, or material loading barfs.
+			"dummy" 0
+		}
+    }
+}

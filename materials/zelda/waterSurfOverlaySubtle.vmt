@@ -1,0 +1,37 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zelda/waterFoam"
+	"$translucent" 1
+	
+	"$center" "[1.0 1.0]"
+	"$angle" 0
+	"$translate" "[-0.25 0.0]"
+	"$scale" "[1.0 1.0]"
+	"$timeoffset" "0"
+	
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" 4
+			"sinemin" 1
+			"sinemax" 1.25
+			"timeoffset" "$timeoffset"
+			"resultVar" "$scale[0]"
+		}
+		"LinearRamp"
+		{
+			"rate" -0.15
+			"initialValue" 0
+			"resultVar" "$translate[1]"
+		}
+		"TextureTransform"
+		{
+			"translateVar" $translate
+			"rotateVar" $angle
+			"centerVar" $center
+			"scaleVar" $scale
+			"resultVar" $basetexturetransform
+		}
+	}
+}

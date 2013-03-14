@@ -1,0 +1,10 @@
+"UnlitGeneric" 
+{ 
+	//"$basetexture"		"vgui/entities/npc_gman" 
+	"$basetexture"		"zelda/gman" 
+	"$vertexcolor" 		1 
+	"$vertexalpha" 		1 
+	"$nolod" 			1 
+
+	//$basetexturetransform "center .5 .5 scale 1 1 rotate 90 translate 0.5 0.5"
+} 

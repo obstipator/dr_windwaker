@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "zelda/triforce"
+	"$envmap" "zelda/gman"
+	//"$envmap" "vgui/entities/npc_gman"
+	"$envmaptint" "[1 1 1]"
+	"$envmapcontrast" "1"
+
+}

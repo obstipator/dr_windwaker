@@ -1,0 +1,15 @@
+"vertexlitgeneric"
+{
+  $color2 "{128 128 128}"
+  $detail "detail/plaster_detail_01.vtf"
+  $detailscale 8
+  $surfaceprop "concrete"
+  $model 1
+	"$bumpmap" "models/alyx/alyx_sheet_normal"
+// -- From here down is new stuff which will only be applied if $phong is set to 1 --
+	"$phong" "1"
+	"$phongexponenttexture" "models/Alyx/alyx_sheet_exponent"
+	"$phongboost"	"9"
+	"$phongfresnelranges"	"[0.04 0.4 1]"
+
+}

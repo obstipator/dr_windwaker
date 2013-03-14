@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zelda/countDown"
+	"$translucent" "1"
+
+	"$frame" "0"
+	"Proxies"
+	{
+		"ToggleTexture"
+		{
+			"toggleTextureVar" "$basetexture"
+			"toggleTextureFrameNumVar" "$frame"
+			"toggleTextureShouldWrap" "0"
+		}
+	}
+}

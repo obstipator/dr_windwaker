@@ -1,0 +1,8 @@
+"SpriteCard"
+{
+	"$basetexture" "zelda/fire"
+	"$translucent" 1
+	"$blendframes" 0
+	"$overbrightfactor" 1.0
+	"$depthblend" "0"
+}

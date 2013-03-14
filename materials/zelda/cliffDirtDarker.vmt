@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	// this is unlit and colored to emulate lighting in the floor attack room so that it doesn't show up full black
+	"$basetexture" "zelda/cliffDirt"
+	"$reflectivity" "[1 1 1]"
+	"$color" "[0.4 0.3 0.2]"
+}

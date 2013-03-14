@@ -1,0 +1,52 @@
+"LightmappedGeneric"
+{
+	"LightmappedGeneric_DX6"
+	{
+		"$fallbackmaterial" "nature/water_movingplane_dx70"
+	}
+	"$alpha" 0.6
+	"$basetexture" "zelda/water"
+	"$bumpmap" "dev/water_normal"
+//	"$selfillum" "1"
+	"$translucent" "1"
+	"$surfaceprop" "water"
+	"$envmap" "env_cubemap"
+//	"$envmaptint" "[1 .9 .8]"
+//	"$envmapcontrast" "1"
+	"%keywords" "wasteland"
+	"%compilewater" 1
+	"$abovewater" 1
+	"$bottommaterial" "nature/water_movingplane_beneath"
+	"$normalmapalphaenvmapmask" 1
+	"$refracttexture" "dev/null"
+	
+	"$bumpframe" 0	// Needed for dx7 
+
+	"$offset" "0"
+	"$rotate" "90.0"
+	
+	"$fogenable" 1
+	"$fogcolor" "{255 0 0}"
+	"$fogstart" 1.00`
+	"$fogend" 100.00
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" 50
+			"sinemin" 0
+			"sinemax" 45
+			"timeoffset" "$offset"
+			"resultVar" "$rotate"
+		}
+
+		"TextureScroll"
+		{
+			"textureScrollVar" "$basetexturetransform"
+			"textureScrollRate" 0.1
+			"textureScrollAngle" "$rotate"
+		}
+	}
+}
+

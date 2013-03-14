@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "zelda/torchHolder"
+	"$translucent" 1
+}

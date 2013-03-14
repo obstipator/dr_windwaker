@@ -1,0 +1,18 @@
+"UnlitGeneric"
+{
+  "$basetexture" "zelda/cuccoWander"
+  "$translucent" 1
+  "$frame" "0"
+  "$frame2" "0"
+  "$color" "[1 0.1 0.1]"
+  //"$color" "[1 1 1]"
+  "Proxies"
+	{
+    "AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+      "animatedtextureframenumvar" "$frame"
+      "animatedtextureframerate" "10"
+		}
+  }
+}

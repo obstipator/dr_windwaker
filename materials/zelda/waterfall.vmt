@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zelda/waterfall2"
+	"$translucent" 1
+	"$alpha" "0.8"
+	"Proxies"
+	{
+		"TextureScroll"
+			{
+				"textureScrollVar" "$basetexturetransform"
+				"textureScrollRate" 1
+				"textureScrollAngle" "-90"
+			}
+	}
+}

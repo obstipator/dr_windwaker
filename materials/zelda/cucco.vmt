@@ -1,0 +1,7 @@
+"Spritecard"
+{
+	"$basetexture" "zelda/cucco"
+	"$translucent" 1
+	"$blendframes" 0
+	"$depthblend" "0"
+}

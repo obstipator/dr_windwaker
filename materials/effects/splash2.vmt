@@ -1,0 +1,11 @@
+"UnlitGeneric"
+{
+	// as far as I know, native particles (player jumping into water) cannot be overwritten
+	// without cpp code, so I'm gonna try to override the textures instead to get a decent effect
+	"$basetexture"	"zelda/waterUpSplash"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$vertexalpha" 	1
+	"$vertexcolor" 	1
+	"$nocull" 		1
+}

@@ -1,0 +1,26 @@
+"LightmappedGeneric"
+{
+	$basetexture "zelda/water4"
+	$bottommaterial "zelda/water4_beneath"
+
+	$abovewater 1
+
+//	$fogenable 0
+	$fogenable 1
+//	$fogcolor "{1 92 216}"
+//	$fogcolor "[0.04 0.36 0.85]"
+//	$fogstart 0
+//	$fogend 128
+// fog goes in the water bottom vmt
+
+	$forcecheap 1
+	%compilewater 1
+	$surfaceprop wade
+	
+	"Proxies"
+	{
+		"WaterLOD"
+		{
+		}
+	}
+}

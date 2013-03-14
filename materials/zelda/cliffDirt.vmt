@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "zelda/cliffDirt"
+	"$reflectivity" "[1 1 1]"
+}

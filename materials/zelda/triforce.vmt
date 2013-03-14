@@ -1,0 +1,10 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "zelda/triforce"
+	"$surfaceprop" "tile"
+	$envmap "env_cubemap"
+	//$envmap "zelda/gman"
+	$envmaptint "[1 1 1]"
+	$envmapcontrast "1"
+
+}

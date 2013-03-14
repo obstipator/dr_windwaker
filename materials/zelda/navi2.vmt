@@ -1,0 +1,6 @@
+"SpriteCard"
+{
+	"$basetexture" "zelda/navi2"
+	"$translucent" 1
+	"$depthblend" "0"
+}

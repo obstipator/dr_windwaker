@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "zelda/doorlocked"
+	"$envmap" "env_cubemap"
+}

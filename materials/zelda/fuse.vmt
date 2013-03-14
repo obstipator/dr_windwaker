@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "zelda/fuse"
+	"$translucent" 1
+}

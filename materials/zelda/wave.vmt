@@ -1,0 +1,9 @@
+"Spritecard"
+{
+	"$basetexture"	"zelda/wave"
+	"$surfaceprop"	"default"
+	"$translucent"	1
+	"$vertexalpha" 	1
+	"$vertexcolor" 	1
+	"$nocull" 		1
+}
