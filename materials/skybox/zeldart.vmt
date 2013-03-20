@@ -1,0 +1,7 @@
+sky
+{
+	$basetexture "skybox/zeldart"
+  $hdrcompressedtexture "skybox/zeldart"
+	$nofog 1
+	$ignorez 1
+}
