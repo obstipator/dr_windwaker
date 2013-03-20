@@ -1,7 +1,7 @@
 sky
 {
 	$basetexture "skybox/zeldabk"
-	$hdrcompressedtexture "skybox/zeldabk"
+	//$hdrcompressedtexture "skybox/zeldabk"
 	$nofog 1
 	$ignorez 1
 }
