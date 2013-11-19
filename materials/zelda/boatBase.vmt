@@ -1,5 +1,5 @@
 "LightmappedGeneric"
 {
-	"$basetexture" "zelda/boatBase"
+	"$basetexture" "zelda/boatbase"
 $surfaceprop "Wood_lowdensity"
 }
