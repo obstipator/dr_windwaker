@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6157"
-	"mapversion" "23"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "23"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -571,8 +571,9 @@ entity
 	"targetname" "floormaster"
 	connections
 	{
-		"OnAnimationBegun" "!activator,SetParent,!self,2,-1"
-		"OnAnimationBegun" "!activator,SetParentAttachment,hand,2.01,-1"
+		"OnAnimationBegun" "!activator,SetParent,floormaster,2.01,-1"
+		"OnAnimationBegun" "!activator,SetParentAttachment,hand,2.02,-1"
+		"OnAnimationBegun" "!self,ClearParent,,2,-1"
 	}
 	"origin" "-128 -96 288"
 	editor
@@ -746,14 +747,14 @@ entity
 entity
 {
 	"id" "143"
-	"classname" "trigger_multiple"
+	"classname" "trigger_once"
 	"origin" "64 -256 101"
 	"spawnflags" "3"
 	"StartDisabled" "0"
-	"wait" "0"
 	connections
 	{
 		"OnStartTouch" "maker_floormaster,ForceSpawnAtEntityOrigin,!activator,0,-1"
+		"OnStartTouch" "floormaster,SetParent,!activator,0.01,-1"
 	}
 	solid
 	{
@@ -873,6 +874,44 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "178"
+	"classname" "math_counter"
+	"max" "10"
+	"min" "0"
+	"StartDisabled" "0"
+	"startvalue" "0"
+	"targetname" "counter_test"
+	"origin" "-349.914 -211.848 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "187"
+	"classname" "logic_relay"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "relay_floormaster"
+	connections
+	{
+		"OnTrigger" "maker_floormaster,ForceSpawnAtEntityOrigin,!activator,0,-1"
+	}
+	"origin" "32 96 65"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
 	}
 }
 cameras
